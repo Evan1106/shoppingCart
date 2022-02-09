@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopping cart2</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+    .row div{border: 1px solid ;}
+    </style>
+</head>
+
+<body>
+    <div class="login container">
+        <h1>登入</h1>
+        <form class="row" action="http://140.127.196.92:1234/formws5"  method="POST" >
+            <!-- <div class="row"> -->
+                <label for="username" class="col-4">username: </label> 
+                <input class="col-8" type="text" name="username" id="username">
+                <label for="password" class="col-4">password:</label>
+                <input class="col-8" type="password" name="password" id="password"> 
+            <!-- </div> -->
+            
+            <button type="button" onclick="location.href= 'shopping cart3.html' "class="btn btn-primary col-12" >登入</button>
+        </form>
+    </div>
+    <!-- <h1 class="col-lg-12 col-md-12">請先登入</h1>
+    <form action="http://140.127.196.92:1234/formws5" method="POST" class="row">
+        <p class="col-lg-12 col-md-12">username: <input type="text" name="username"></p>
+        <p class="col-lg-12 col-md-12">password: <input type="password" name="password"></p>
+        <br>
+        <button type="button" onclick="location.href= 'shopping cart3.html' "class="col-lg-4 col-md-12 btn btn-primary" >登入</button>
+    </form> -->
+</body>
+
+</html>
